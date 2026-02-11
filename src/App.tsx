@@ -1,5 +1,6 @@
 import "./index.css";
 import portrait from './assets/portrait.png';
+import Stack from './Stack.tsx';
 //import Home from "./Home.tsx";
 
 function App() {
@@ -37,13 +38,10 @@ function App() {
           </div>
         </div>
         <div className="bg-gray-900 text-white -mt-70 pt-70 pb-20">
-          <div className="px-4 grid gap-3 text-center
-          grid-rows-4 grid-cols-1 
-          lg:grid-cols-4 lg:grid-rows-1">
-            <p className="border border-white p-5">Item Placeholder 1</p>
-            <p className="border border-white p-5">Item Placeholder 2</p>
-            <p className="border border-white p-5">Item Placeholder 3</p>
-            <p className="border border-white p-5">Item Placeholder 4</p>
+          <p className="text-center font-bold mb-3 text-xl -mt-10
+          lg:mb-13 lg:mt-4 lg:text-2xl">SKILLS</p>
+          <div className="px-4">
+            <Stack />
           </div>
         </div>
       </div>

@@ -2,12 +2,12 @@ import "./index.css";
 
 function Um() {
   return (
-    <body className="bg-gray-800">
+    <body className="bg-black">
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <div className="mt-60">
         <h1 className="text-center font-extrabold text-3xl lg:text-6xl">
           <span className="text-white">
-            UNDER </span><span className="text-pink-400">MAINTENANCE
+            UNDER </span><span className="text-yellow-400">MAINTENANCE
           </span>
         </h1>
       </div>
