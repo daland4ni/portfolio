@@ -19,7 +19,7 @@ function App() {
               In university, I had projects that honed and challenged my programming skills that exposed me to trying out different languages and techniques.
               I also have a leadership background in both academic and extra-curricular activities which made me a great communicator and problem solver.
             </p>
-            <div className="flex flex-row mt-7 -mb-15 lg:mb-0 lg:mt-15">
+            <div className="flex flex-row mt-7 -mb-5 lg:mb-0 lg:mt-15">
               <p className="p-3 rounded-xl border border-yellow-300 text-center text-yellow-300 w-30">Contact Me</p>
               <p className="p-3 ml-3 text-gray-300">View CV</p>
             </div>
