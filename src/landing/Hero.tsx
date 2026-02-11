@@ -1,5 +1,5 @@
-import "./index.css";
-import portrait from './assets/portrait.png';
+import "../index.css";
+import portrait from '../assets/portrait.png';
 
 function Hero() {
     return (

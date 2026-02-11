@@ -1,11 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Landing from './landing/Landing.tsx'
-//import Um from './UM.tsx'
+//import Landing from './landing'
+import Um from './maintenance'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Landing />
+    <Um />
   </StrictMode>,
 )

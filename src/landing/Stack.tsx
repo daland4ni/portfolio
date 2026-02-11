@@ -40,7 +40,10 @@ const StackIt = ({ items }: IconListProps) => {
             {items.map(({ id, name, Icon }) => (
                 <span
                     key={id}
-                    className="p-1.5 rounded-full w-fit text-4xl bg-white text-black hover:bg-black hover:text-yellow-300"
+                    className="p-1.5 rounded-full w-fit text-4xl 
+                    bg-white text-black 
+                    hover:bg-black hover:text-yellow-300
+                    active:bg-black active:text-yellow-300"
                     data-tooltip-id={id}
                     data-tooltip-content={name}
                 >
@@ -57,26 +60,32 @@ function Stack() {
     const BoxStyle = "p-3 bg-white grid grid-rows-2 grid-cols-1 mb-3";
 
     return (
-        <div className=" grid gap-3
-          grid-rows-3 grid-cols-1 
-          lg:grid-cols-3 lg:grid-rows-1">
-            <div className={BoxStyle}>
-                <div>
-                    <p className="text-black font-bold text-center">LANGUAGES</p>
+        <div className="bg-gray-900 text-white -mt-70 pt-70 pb-20">
+            <p className="text-center font-bold mb-3 text-xl -mt-10 lg:mb-13 lg:mt-2 lg:text-2xl">SKILLS</p>
+
+            <div className="px-4">
+                <div className=" grid gap-2 justify-center lg:mx-30 lg:gap-7
+                grid-rows-3 grid-cols-1 
+                lg:grid-cols-3 lg:grid-rows-1">
+                    <div className={BoxStyle}>
+                        <div>
+                            <p className="text-black font-bold text-center">LANGUAGES</p>
+                        </div>
+                        <StackIt items={languages} />
+                    </div>
+                    <div className={BoxStyle}>
+                        <div>
+                            <p className="text-black font-bold text-center">FRAMEWORKS</p>
+                        </div>
+                        <StackIt items={frameworks} />
+                    </div>
+                    <div className={BoxStyle}>
+                        <div>
+                            <p className="text-black font-bold text-center">TECHNOLOGIES</p>
+                        </div>
+                        <StackIt items={techs} />
+                    </div>
                 </div>
-                <StackIt items={languages} />
-            </div>
-            <div className={BoxStyle}>
-                <div>
-                    <p className="text-black font-bold text-center">FRAMEWORKS</p>
-                </div>
-                <StackIt items={frameworks} />
-            </div>
-            <div className={BoxStyle}>
-                <div>
-                    <p className="text-black font-bold text-center">TECHNOLOGIES</p>
-                </div>
-                <StackIt items={techs} />
             </div>
         </div>
     )
