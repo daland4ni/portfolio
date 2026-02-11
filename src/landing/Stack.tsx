@@ -1,4 +1,4 @@
-import "./index.css";
+import "../index.css";
 import { Tooltip } from 'react-tooltip';
 import { FaCss3Alt, FaPhp, FaReact, FaVuejs, FaBootstrap, FaGithub, FaNodeJs } from "react-icons/fa";
 import { IoLogoHtml5, IoLogoJavascript } from "react-icons/io";
