@@ -60,7 +60,7 @@ function Stack() {
     const BoxStyle = "p-3 bg-white grid grid-rows-2 grid-cols-1 mb-3";
 
     return (
-        <div className="bg-gray-900 text-white -mt-70 pt-70 pb-20">
+        <div className="bg-gray-900 text-white -mt-70 pt-70 lg:pt-60 pb-20">
             <p className="text-center font-bold mb-3 text-xl -mt-10 lg:mb-13 lg:mt-2 lg:text-2xl">SKILLS</p>
 
             <div className="px-4">

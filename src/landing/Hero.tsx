@@ -5,7 +5,7 @@ import { RiDownload2Fill } from "react-icons/ri";
 function Hero() {
     return (
         <div className="grid gap-1 triangle-cut bg-black pb-10 grid-rows-2 
-        lg:pb-60 lg:pt-30 lg:grid-rows-1 lg:grid-cols-2">
+        lg:pb-100 lg:pt-30 lg:grid-rows-1 lg:grid-cols-2">
 
             {/* HERO TEXT - note to self: be weary of space on large screens */}
             <div className="p-6 lg:col-span-1 lg:px-20 lg:pt-10 lg:ml-30 w-fit">
@@ -20,10 +20,14 @@ function Hero() {
                     I also have a leadership background in both academic and extra-curricular activities which made me a great communicator and problem solver.
                 </p>
                 <div className="flex flex-row mt-10 lg:mb-0 lg:mt-15 justify-center lg:justify-start">
-                    <p className="p-3 rounded-xl border border-yellow-300 text-center text-yellow-300 w-30">Contact Me</p>
-                    <p className="p-3 ml-7 text-gray-300 flex flex-row">View CV   
-                        <span className="ml-3 flex items-center"><RiDownload2Fill /> </span>
-                    </p>
+                    <button type="button">
+                        <p className="p-3 hover:cursor-pointer rounded-lg border border-yellow-300 text-center hover:bg-yellow-500 hover:text-black text-yellow-300 w-30">Contact Me</p>
+                    </button>
+                    <button type="button">
+                        <p className="p-3 hover:cursor-pointer rounded-lg border hover:border-gray-300 border-black  ml-7 text-gray-300 flex flex-row">View CV
+                            <span className="ml-3 flex items-center"><RiDownload2Fill /> </span>
+                        </p>
+                    </button>
                 </div>
             </div>
 
@@ -35,7 +39,7 @@ function Hero() {
                     <img className="w-max h-max brightness-75
               lg:rounded-full border lg:bg-gray-200 lg:mr-45 
               lg:drop-shadow-2xl
-              lg:drop-shadow-yellow-100/30"
+              lg:drop-shadow-amber-50/20"
                         alt="self portrait" src={portrait} />
                 </div>
             </div>
