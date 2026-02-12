@@ -1,5 +1,6 @@
 import "../index.css";
 import portrait from '../assets/portrait.png';
+import { RiDownload2Fill } from "react-icons/ri";
 
 function Hero() {
     return (
@@ -18,9 +19,11 @@ function Hero() {
                     In university, I had projects that honed and challenged my programming skills that exposed me to trying out different languages and techniques.
                     I also have a leadership background in both academic and extra-curricular activities which made me a great communicator and problem solver.
                 </p>
-                <div className="flex flex-row mt-7 -mb-5 lg:mb-0 lg:mt-15 w-fit ">
+                <div className="flex flex-row mt-10 lg:mb-0 lg:mt-15 justify-center lg:justify-start">
                     <p className="p-3 rounded-xl border border-yellow-300 text-center text-yellow-300 w-30">Contact Me</p>
-                    <p className="p-3 ml-3 text-gray-300">View CV</p>
+                    <p className="p-3 ml-7 text-gray-300 flex flex-row">View CV   
+                        <span className="ml-3 flex items-center"><RiDownload2Fill /> </span>
+                    </p>
                 </div>
             </div>
 
