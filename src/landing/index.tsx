@@ -5,7 +5,7 @@ import Feature from "./Feature.tsx";
 
 function Landing() {
   return (
-    <div className="">
+    <div id="home">
       <Hero />
       <Stack />
       <Feature />

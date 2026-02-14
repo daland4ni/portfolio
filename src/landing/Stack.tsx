@@ -6,6 +6,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript, SiMongodb, SiMysql, SiPostman } from "react-icons/si";
 import { FiMoreHorizontal } from "react-icons/fi";
 import type { IconType } from 'react-icons';
+import { FaFigma } from "react-icons/fa6";
 
 const languages = [
     { id: "html", name: "HTML5", Icon: IoLogoHtml5 },
@@ -28,7 +29,8 @@ const techs = [
     { id: "node", name: "Node.js", Icon: FaNodeJs },
     { id: "mongodb", name: "MongoDB Atlas (NoSQL)", Icon: SiMongodb },
     { id: "mysql", name: "MySQL", Icon: SiMysql },
-    { id: "postman", name: "Postman (HTTP)", Icon: SiPostman }
+    { id: "postman", name: "Postman (HTTP)", Icon: SiPostman },
+    { id: "figma", name: "Figma", Icon: FaFigma }
 ]
 
 interface Skill { id: string; name: string; Icon: IconType; }
@@ -40,10 +42,9 @@ const StackIt = ({ items }: IconListProps) => {
             {items.map(({ id, name, Icon }) => (
                 <span
                     key={id}
-                    className="p-1.5 rounded-full w-fit text-4xl 
+                    className="p-1.5 rounded-full w-auto text-4xl 
                     bg-white text-black 
-                    hover:bg-black hover:text-yellow-300
-                    active:bg-black active:text-yellow-300"
+                    hover:bg-black hover:text-yellow-300"
                     data-tooltip-id={id}
                     data-tooltip-content={name}
                 >
@@ -57,7 +58,7 @@ const StackIt = ({ items }: IconListProps) => {
 
 function Stack() {
 
-    const BoxStyle = "p-3 bg-white grid grid-rows-2 grid-cols-1 mb-3";
+    const BoxStyle = "p-3 bg-white grid grid-rows-2 grid-cols-1 mb-3 w-auto";
 
     return (
         <div className="bg-gray-900 text-white -mt-70 pt-70 lg:pt-60 pb-10">
@@ -81,7 +82,7 @@ function Stack() {
                     </div>
                     <div className={BoxStyle}>
                         <div>
-                            <p className="text-black font-bold text-center">TECHNOLOGIES</p>
+                            <p className="text-black font-bold text-center">TECHNOLOGIES AND TOOLS</p>
                         </div>
                         <StackIt items={techs} />
                     </div>
