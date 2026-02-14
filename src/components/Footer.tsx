@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 
 function Footer() {
     return (
-        <div id="contact" className="bg-violet-950 px-5 lg:px-25 py-15 grid
+        <section id="contact" className="bg-violet-950 px-5 lg:px-25 py-15 grid
         grid-rows-3 grid-cols-1
         lg:grid-rows-1 lg:grid-cols-3">
 
@@ -72,7 +72,7 @@ function Footer() {
                 </div>
             </div>
 
-        </div>
+        </section>
     )
 }
 

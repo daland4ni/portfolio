@@ -1,6 +1,7 @@
 import "../index.css";
 import portrait from '../assets/portrait.png';
-import { RiDownload2Fill } from "react-icons/ri";
+import { FaArrowRight } from "react-icons/fa";
+import Scroll from '../components/ScrollTo';
 
 function Hero() {
     return (
@@ -21,15 +22,16 @@ function Hero() {
                     I also have a leadership background in both academic and extra-curricular activities which made me a great communicator and problem solver.
                 </p>
                 <div className="flex flex-row mt-10 lg:mb-0 lg:mt-15 justify-center lg:justify-start">
-                    <button type="button">
+                    <button type="button" onClick={() => Scroll("contact")}>
                         <p className="p-3 hover:cursor-pointer rounded-lg border border-yellow-300 text-center 
                         hover:bg-yellow-500 hover:text-black active:bg-yellow-500 active:text-black text-yellow-300 w-30">Contact Me</p>
                     </button>
-                    <button type="button">
-                        <p className="p-3 hover:cursor-pointer hover:text-white active:text-white  ml-7 text-gray-400 flex flex-row">View CV
-                            <span className="ml-3 flex items-center"><RiDownload2Fill /> </span>
+                    <a href="https://drive.google.com/file/d/1AzM6QPD6Mjdck68IdogDExFZx2pLoKYG/view?usp=sharing" target="__blank">
+                        <p className="p-3 hover:cursor-pointer hover:text-white active:text-white  ml-7 text-gray-400 flex flex-row">
+                            View Resume
+                            <span className="ml-3 flex items-center"><FaArrowRight /> </span>
                         </p>
-                    </button>
+                    </a>
                 </div>
             </div>
 
