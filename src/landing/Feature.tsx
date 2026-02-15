@@ -15,10 +15,10 @@ function Feature() {
                         <div className="text-white text-center font-extralight mb-4 text-md lg:text-right lg:text-xl">Sole Developer</div>
                     </div>
                     <div className='px-5 flex flex-row flex-wrap justify-center lg:justify-end items-center space-x-1.5 space-y-1.5 mb-3 lg:mb-5'>
-                        <TechTag tech="nodejs" />
-                        <TechTag tech="mongodb-nosql" />
-                        <TechTag tech="mongoose" />
-                        <TechTag tech="discord-api" />
+                        <TechTag tech="nodejs" sizing="nm" style="dark" />
+                        <TechTag tech="mongodb-nosql" sizing="nm" style="dark" />
+                        <TechTag tech="mongoose" sizing="nm" style="dark" />
+                        <TechTag tech="discord-api" sizing="nm" style="dark" />
                     </div>
                     <p className='text-gray-300 font-light mb-6 lg:mb-8 text-justify px-5 text-md lg:text-lg'>
                         A Discord Chat Bot with more than 40 commands with various purposes: Discord server moderation and management, entertainment, and user profiling.
