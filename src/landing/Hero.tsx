@@ -38,8 +38,8 @@ function Hero() {
             {/* IMAGE SECTION */}
             <div className="flex justify-center  items-center lg:col-span-2">
                 <div className="lg:flex lg:justify-start
-            w-90 h-90 pt-15 -mt-20
-            lg:w-full lg:h-auto">
+            w-90 h-fit pt-30 -mt-20
+            lg:w-full lg:h-fit">
                     <img className="w-max h-max brightness-75
               lg:rounded-full border lg:bg-gray-200
               lg:drop-shadow-2xl
