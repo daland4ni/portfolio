@@ -12,7 +12,7 @@ function Hero() {
             <div className="p-6 lg:pt-10 lg:col-span-4">
 
                 <p className="text-white text-center lg:text-left text-md font-normal
-            lg:text-2xl lg:w-fit">Hey! I'm Aeron Roxas, an aspiring</p>
+            lg:text-2xl lg:w-fit">Hey! I'm Aeron Roxas,</p>
                 <p className="text-yellow-300 mt-2 text-center lg:text-left text-2xl font-extrabold
             lg:text-5xl lg:mt-4">SOFTWARE DEVELOPER</p>
                 <p className="text-gray-500 mt-2 text-justify 
