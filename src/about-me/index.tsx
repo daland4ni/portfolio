@@ -18,7 +18,7 @@ function AboutMe() {
                         <p className='p-2 lg:px-0 font-extrabold text-lg lg:text-5xl'>
                             AERON JAMIL C. ROXAS
                         </p>
-                        <p className='text-xs lg:text-sm'>Pasay City, Philippines</p>
+                        <p className='text-xs lg:text-sm'>Metro Manila, Philippines</p>
                     </div>
                     
                     <div className='flex flex-col lg:flex-row px-5 lg:px-0 space-y-5 lg:space-y-3 lg:mb-5 lg:space-x-8'>

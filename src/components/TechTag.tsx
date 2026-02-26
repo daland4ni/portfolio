@@ -145,12 +145,12 @@ const TECH_MAP: Record<TechKey, TechConfig> = {
     name: "Git Repository",
     icon: FaGithub,
     colors: {
-      bg800: "bg-black",
-      bg400: "bg-black",
-      border400: "border-black",
-      border800: "border-black",
-      text400: "text-black",
-      text800: "text-black",
+      bg800: "bg-gray-800",
+      bg400: "bg-gray-400",
+      border400: "border-gray-400",
+      border800: "border-gray-800",
+      text400: "text-gray-400",
+      text800: "text-gray-800",
     },
   },
   "tailwind": {
@@ -274,7 +274,7 @@ const TechTag = ({
     case "solid-light":
       containerClasses += `${colors.bg400} border ${colors.border400}`;
       iconClasses += "text-black ";
-      textClasses += "text-white font-bold";
+      textClasses += "text-black font-bold";
       break;
   }
 

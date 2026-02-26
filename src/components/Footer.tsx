@@ -15,7 +15,7 @@ function Footer() {
                     <p className="text-white text-xl font-semibold">Aeron Jamil Roxas</p>
                     <p>Software Developer</p>
                     <p>Open to Entry-Level Opportunities</p>
-                    <p>Based in Pasay City, Philippines</p>
+                    <p>Based in Metro Manila, Philippines</p>
                     <p>&copy; 2026</p>
                 </div>
             </div>
